@@ -1,4 +1,3 @@
-
 export const canvas = document.querySelector('#canvas')
 const ctx = canvas.getContext('2d')
 const d = 3
@@ -59,4 +58,3 @@ export function clickToTail(x, y)
     const i = Math.floor(y / tileHeight)
     return [i,j]
 }
-
